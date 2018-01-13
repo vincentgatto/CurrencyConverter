@@ -1,0 +1,38 @@
+ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	float: left;
+	display: block;
+}
+ul li ul{
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+}
+ul li:hover ul li{
+	float: none;
+}
+ul li a{
+	text-decoration: none;
+	background: #ff8000;
+	color: white;
+	display: block;
+	padding: 5px 15px 5px 15px;
+	margin-left: 2px;
+}
+ul li a:hover{
+	background: blue;
+}
+a{
+	float: right;
+}
+input{
+	float: left;
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+}​
